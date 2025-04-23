@@ -1,0 +1,17 @@
+width: 50
+depth: 1
+activation: gelu
+lr: 1.e-2
+lr_cv: 1.e-3
+lr_min: 1.e-5
+n_epochs: 5000
+batch_size: 256
+prior_prec_init: 1.0
+lr_hyp: 1.e-2
+lr_hyp_min: 1.e-3
+n_epochs_burnin: 100
+marglik_frequency: 50
+n_hypersteps: 50
+n_epochs_cv: 1000
+prior_prec_log_lower: -4
+prior_prec_log_upper: 4
